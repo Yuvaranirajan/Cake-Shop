@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d6f6d4254b.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+    <div class="home">
+       
+        <!-- navbar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 position-fixed">
+          <div class="container-fluid">
+            <a class="navbar-brand ps-3" href="#">Cake berry</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item ps-3">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item ps-3">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item ps-3">
+                  <a class="nav-link" href="#flavour">Flavours</a>
+                </li>
+                <li class="nav-item ps-3">
+                  <a class="nav-link" href="#order">Orders</a>
+                </li>
+                <li class="nav-item ps-3">
+                  <a class="nav-link" href="#review">Review</a>
+                </li>
+                <li class="nav-item ps-3">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item ps-3">
+                  <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+         
+             <!-- coursel -->
+             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://www.fnp.com/assets/images/custom/cakes_23/Cake-Top-Banner_web_2.jpg" class="d-block w-100 min-vh-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://imgcdn.floweraura.com/cake_homepage_fa_desktop_7.jpg?tr=w-1583,dpr-1.5,q-70" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.fnp.com/assets/images/custom/cakes_23/cakes_delivery/Bestseller_Web.jpg" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.fnp.com/assets/images/custom/cakes_23/cakes_delivery/Same-Day_Web.jpg" class="d-block w-100 " alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <!-- popular cakes -->
+
+            <div class="popular">
+              <h1>Our Newly Launched Cakes</h1>
+              <div class="new-card d-flex justify-content-center align-items-center">
+                <!-- card1 -->
+                <div class="card" style="width: 18rem;">
+                  <img src="https://imgcdn.floweraura.com/pinata_cake_desktop_0.jpg?tr=w-300,h-300,dpr-1.5,q-70" class="card-img-top  " alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Pinata Cake</p>
+                  </div>
+                </div>
+                <!-- card2 -->
+                <div class="card " style="width: 18rem;">
+                  <img src="https://imgcdn.floweraura.com/pull_me_up_cake_desktop_0.jpg?tr=w-300,h-300,dpr-1.5,q-70" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Pull me up Cake</p>
+                  </div>
+                </div>
+                <!-- card3 -->
+                <div class="card" style="width: 18rem;">
+                  <img src="https://imgcdn.floweraura.com/bomb_cake_desktop_0.jpg?tr=w-300,h-300,dpr-1.5,q-70" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Bomb Cake</p>
+                  </div>
+                </div>
+                 <!-- card4 -->
+                 <div class="card" style="width: 18rem;">
+                  <img src="https://www.fnp.com/assets/images/custom/cakes_23/featured/Jar-Cakes_web.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Jar Cake</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- About -->
+            <div class="about-content mt-5" id="about" >
+              <h1>About Us</h1>
+              <div class="about-container d-flex justify-content-evenly g-5">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.hbR-CghyYt-Ri-uPMPsXTwHaDy&pid=Api&P=0&h=180" >
+                    <div>
+                    <p>We are exactly what you are looking for. Yes, we are an FSSAI certified online cake and Bakery Company that specializes in delivering absolutely lip-smacking delicacies. Currently, we are delivering cakes in Gurgaon, Delhi, Noida, Ghaziabad, Bangalore and Hyderabad. We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence,
+                       who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.</p>
+                      <p> Our mission is to “deliver these heavenly cakes at your doorstep on time to make your celebrations even grander”. Because for us, it is not
+                        just a Cake but more and so we craft it with a blend of inspiration, passion, and love. We guarantee an extraordinary taste in your choicest flavors with ravishing designs. </p>
+                     <ol>
+                       <li> Free Delivery
+</li>                       <li> Online Payment</li>
+                       <li>  24/7 Services</li>
+                      </ol>
+                    </div>
+                  
+              </div>
+              
+            </div>
+
+            <!-- Category -->
+            <div class="flavors-container mt-5" id="flavour">
+              <h1>Flavours</h1>
+              <div class="flav-content">
+                <div class="row">
+                  <h2>Chocolate Cakes</h2>
+                  <div class="card-text d-flex justify-content-evenly">
+                    <div class="card" style="width: 18rem;">
+                      <img src="https://media.bakingo.com/sq-kitkat-chocolate-cake-cake1119choc-AA_0.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Kitkat Chocolate Cake <span class="badge bg-success">4.9</span></h5>
+                        <p class="card-text">₹ 699 </p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <img src="https://media.bakingo.com/sq-choco-truffle-cake-2-cake896choc-A_0.jpg?tr=w-320,h-320,dpr-1.5,q-70" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Dark Round Cake <span class="badge bg-success">4.9</span></h5>
+                        <p class="card-text">₹ 599</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <img src="https://media.bakingo.com/sq-round-shaped-chocolate-cake-1-cake0653choc-A.jpg?tr=w-320,h-320,dpr-1.5,q-70" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Chocolate Truffle Cake <span class="badge bg-success">4.9</span></h5>
+                        <p class="card-text">₹ 599</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <img src="https://imgcdn.floweraura.com/eggless-chocolate-cake-9911160ca_0.jpg?tr=w-264,dpr-1.5,q-70" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Chocolate Cake <span class="badge bg-success">4.9</span></h5>
+                        <p class="card-text">₹ 749</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                   <!-- black forest -->
+                <div class="row">
+                  <h2>Black Forest Cakes</h2>
+                  <div class="card-text d-flex justify-content-evenly">
+                    <div class="card" style="width: 18rem;">
+                      <img src="https://imgcdn.floweraura.com/DSC_8765_0.jpg?tr=w-264,dpr-1.5,q-70" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Choco Vanilla Cake <span class="badge bg-success">4.9</span></h5>
+                        <p class="card-text">₹ 599 </p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+                    <div class="card " style="width: 18rem;">
+                      <img src="https://imgcdn.floweraura.com/Re-Shoot-Cake-03-AA.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Cherry Black Cake <span class="badge bg-success">4.9</span></h5>
+                        <p class="card-text">₹ 599</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <img src="https://imgcdn.floweraura.com/Blackforest-cake-2Kg-eggless-A.jpg?tr=w-264,dpr-1.5,q-70" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Black Forest Cake <span class="badge bg-success">4.5</span></h5>
+                        <p class="card-text">₹ 899</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <img src="https://imgcdn.floweraura.com/2-tier-blackforest-A_1.jpg?tr=w-264,dpr-1.5,q-70" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">2 Tier Cake <span class="badge bg-success">4.9</span></h5>
+                        <p class="card-text">₹ 999</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- red velvet cake -->
+
+                <div class="row">
+                  <h2>Red Velvet Cakes</h2>
+                  <div class="card-text d-flex justify-content-evenly">
+                    <div class="card" style="width: 18rem;">
+                      <img src="https://media.bakingo.com/sq-red-velvet-cake0027reex-AA_0.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Red Velvet Cream Cake <span class="badge bg-success">4.9</span></h5>
+                        <p class="card-text">₹ 699 </p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+                    <div class="card " style="width: 18rem;">
+                      <img src="https://media.bakingo.com/sq-red-velvet-choco-coffee-cake0040rchc-AA.jpg?tr=w-320,h-320,dpr-1.5,q-70" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Red Velvet Coffee Cake <span class="badge bg-success">4.9</span></h5>
+                        <p class="card-text">₹ 649</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <img src="https://media.bakingo.com/sq-red-velvet-cake-cake1631redv-A_0.jpg?tr=w-320,h-320,dpr-1.5,q-70" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title"> Buttercream Creamy Cake<span class="badge bg-success">5.0</span></h5>
+                        <p class="card-text">₹ 649</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <img src="https://imgcdn.floweraura.com/eggless-velvety-cake-9911230ca-A_0.jpg?tr=w-264,dpr-1.5,q-70" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Velvet Cake <span class="badge bg-success">5.0</span></h5>
+                        <p class="card-text">₹ 899</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+            <!-- order -->
+            <div class="order mt-5" id="order">
+              <h1>Order Now</h1>
+              <div class="order-container">
+                <div class="order-content d-flex justify-content-around align-items-center">
+                  <img src="https://www.shutterstock.com/image-vector/online-order-concept-man-ordering-600w-1690889572.jpg">
+                  <div class="order-info d-flex justify-content-evenly align-items-center">
+                        <div class="order p-lg-5">
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Email address">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Phone Number">
+                          </div>
+                        </div>
+                        <div class="order">
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Your Order</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Food Name">
+                          </div>
+                          <!--  -->
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Address</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Address">
+                            <button type="button" class="btn">Order Now</button>
+                          </div>
+                        </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+
+
+             <!-- review -->
+             <div class="review mt-5" id="review">
+                   <h1>Testimonials</h1>
+                   <div class="review-content d-flex justify-content-evenly">
+                    <div  style="width: 20rem;">
+                      <img src="https://tse3.mm.bing.net/th?id=OIP.2i5UaEHaQM3PYAYXQyM1AAAAAA&pid=Api&P=0&h=180" class="card-img-top p-3" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title ps-3">Teena</h5>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                        <p class="card-text pt-2 ps-3">Good customer support online call.. I had mistakenly ordered duplicate items. They were so quick to change the order and made it right. What ever we request they take as priority. Well done the celebration went well.</p>
+                        
+                      </div>
+                    </div>
+                    <div  style="width: 20rem;">
+                      <img src="https://tse1.mm.bing.net/th?id=OIP.w6Cs6qz234c71XloeqKdwgHaHa&pid=Api&P=0&h=180" class="card-img-top p-3" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title ps-3">Ram</h5>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+
+                        <p class="card-text pt-2 ps-3">Good customer support online call.. I had mistakenly ordered duplicate items. They were so quick to change the order and made it right. What ever we request they take as priority. Well done the celebration went well..</p>
+    
+                      </div>
+                    </div>
+                    <div  style="width: 20rem;">
+                      <img src="https://www.ninjaonlinedating.com/blog/wp-content/uploads/2019/08/SmileModifiedKRAK.jpg" class="card-img-top p-3" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title ps-3">Raj</h5>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+
+                        <p class="card-text pt-2 ps-3">Good customer support online call.. I had mistakenly ordered duplicate items. They were so quick to change the order and made it right. What ever we request they take as priority. Well done the celebration went well.</p>
+                        
+                      </div>
+                    </div>
+                   </div>
+                         
+                   
+              </div>
+                   
+                          
+                          
+                          
+                    
+
+
+                   <!-- contact -->
+                   <div class="contact-container mt-5" id="contact">
+                    <h1>Contact Us</h1>
+                    <div class="contact-content">
+                      <div class=" form-content">
+                    <div class="contact-form">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Email address">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Write your queries here...</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn">Send Messages</button>
+                  </div>
+                </div>
+                   </div>
+
+
+
+            <!-- FAQ -->
+
+            <div class="FAQ-container container mt-5" id="faq">
+              <h1>Frequently Asked Questions</h1>
+              <div class="Faq-content d-flex justify-content-center align-items-center">
+              <div class="accordion " id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Will it get fresh cake ?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      We understand the same question as cake is only important or useful until it is fresh. Fresh cake makes party or occasion special and memorable. Our team starts baking cake as per your time selection.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What types of Creams/Cake toppings available?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      We use a premium non-dairy cream for Cream based Cakes and Chocolate Ganache for chocolate cakes.We have a variety of fruit fillings which are fresh and brought in from various locations to give you the best dessert experience.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      When was my cake baked?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Cake, like wine, needs a little time before it's prime. We give our cakes a day to rest in the fridge. Cake also tastes better once the flavors of our fine ingredients have had a chance to marry overnight. There's a lot of action going on with our cakes!
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+            </div>
+           <div class="footer bg-dark min-vh-25 mt-5">
+            <div class="footer-content d-flex justify-content-evenly">
+               <div>
+               
+                <ul>
+                <li><h3>Known us</h3></li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Locate Us</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+               </div>
+               <div>
+                
+                <ul>
+                  <li><h3>Need Help</h3>
+                  </li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Cancellation and Refund</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Sitemap</a></li>
+                </ul>
+               </div>
+               <div>
+                
+                <ul>
+                  <li><h3>More Info</h3></li>
+                <li><a href="#">Desserts Premier Leauge - DPL</a></li>
+                <li><a href="#">Corporate Cakes</a></li>
+                <li><a href="#">Coupons & Offers</a></li>
+                <li><a href="#">Franchise</a></li>
+                <li><a href="#">Download App</a></li>
+              </ul>
+               </div>
+               <div>
+                
+                <ul>
+                  <li><h3>Find Us</h3></li>
+                  <ul class="d-flex justify-content-around">
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    
+                  </ul>
+                  <li><img src="https://media.bakingo.com/bakingo-ssr/static/media/googleplay.79a22a1d.png"></li>
+                  <li><img src="https://media.bakingo.com/bakingo-ssr/static/media/appstore.93f95fc4.png"></li>
+
+                </ul>
+               </div>
+              </div>
+           </div>
+
+              
+
+    </div>
+     <!-- spinner -->
+     <!-- <div class="spinner-wrapper d-flex justify-content-center align-items-center min-vh-100">
+      <div class="spinner-border text-danger" style="width: 3rem; height: 3rem;">
+          <span class="visually-hidden">Loading...</span>
+      </div>
+  </div> -->
+    
+   <!-- <script src="script.js"></script> -->
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
